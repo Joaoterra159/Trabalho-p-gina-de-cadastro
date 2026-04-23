@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #e0e0e0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  width: 300px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+h2 {
+  text-align: center;
+}
+
+input, button {
+  width: 100%;
+  max-width: 250px;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+button {
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+}
+
+.botao-foto {
+  background: #666;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.botao-foto:hover {
+  background: #444;
+}
+
+#preview {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 10px;
+  object-fit: cover;
+  display: none;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-conteudo {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.popup img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px 0;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Cadastro</h2>
+
+    <form id="formCadastro">
+      <input type="text" id="nome" placeholder="Nome" required>
+      <input type="password" id="senha" placeholder="Senha" required>
+
+      <img id="preview" src="" alt="Foto">
+
+      <input type="file" id="foto" accept="image/*" hidden>
+
+      <label for="foto" class="botao-foto">Escolher Foto</label>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+
+  <div id="popup" class="popup">
+    <div class="popup-conteudo">
+      <h3>Cadastro realizado!</h3>
+      <img id="fotoFinal">
+      <p id="nomeFinal"></p>
+      <button onclick="fecharPopup()">Fechar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
