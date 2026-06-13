@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Reuniões</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Agenda de Reuniões</h1>
+
+    <nav>
+        <button onclick="mostrarAba('agenda')">
+            Agendar
+        </button>
+
+        <button onclick="mostrarAba('historico')">
+            Reuniões
+        </button>
+    </nav>
+
+    <div id="agenda" class="aba">
+
+        <h2>Agendar Reunião</h2>
+
+        <input type="date" id="data">
+
+        <input type="time" id="hora">
+
+        <input
+            type="text"
+            id="assunto"
+            placeholder="Assunto">
+
+        <input
+            type="text"
+            id="participantes"
+            placeholder="Participantes">
+
+        <button onclick="salvarReuniao()">
+            Salvar
+        </button>
+
+    </div>
+
+    <div id="historico" class="aba" style="display:none">
+
+    <h2>Reuniões</h2>
+
+    <div id="lista"></div>
+
+</div>
+
+        <script src="script.js"></script>
+</body>
+</html>

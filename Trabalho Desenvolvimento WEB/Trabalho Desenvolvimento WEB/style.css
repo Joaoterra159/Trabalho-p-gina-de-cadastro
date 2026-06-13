@@ -1,0 +1,46 @@
+body{
+    width: 700px;
+    margin: auto;
+    font-family: Arial;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+nav{
+    margin: 20px 0;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.aba{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input{
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.card{
+    background-color: #eeeeee;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.card button{
+    margin-top: 10px;
+}
